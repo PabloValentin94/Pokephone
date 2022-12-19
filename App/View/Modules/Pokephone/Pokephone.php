@@ -32,7 +32,7 @@
 
                 <div class="buttons">
 
-                    <form class="form" method="post" action="/change">
+                    <form class="form" method="post" action="/">
 
                         <button id="btn_anterior" name="id_pokemon" value="<?= $item->id - 1 ?>" type="submit"> < </button>
 

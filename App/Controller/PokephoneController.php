@@ -12,20 +12,21 @@ class PokephoneController extends Controller
 
         $model = new PokephoneModel();
 
-        $model->GetByID($model->id);
+        if(isset($_POST["id_pokemon"]))
+        {
 
-        parent::render("Pokephone/Pokephone", $model);
+            $model->id = $_POST["id_pokemon"];
 
-    }
+            $model->GetByID($model->id);
 
-    public static function Change()
-    {
+        }
 
-        $model = new PokephoneModel();
+        else
+        {
 
-        $model->id = $_POST["id_pokemon"];
+            $model->GetByID($model->id);
 
-        $model->GetByID($model->id);
+        }
 
         parent::render("Pokephone/Pokephone", $model);
 

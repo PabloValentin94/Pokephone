@@ -11,10 +11,6 @@ switch($url)
         PokephoneController::PokephonePage();
     break;
 
-    case "/change":
-        PokephoneController::Change();
-    break;
-
     default:
         echo "Error 404";
 

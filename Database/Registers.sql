@@ -14,4 +14,5 @@ INSERT INTO Pokemon(nome, imagem) VALUES("Pikachu", "/View/Modules/Pokephone/Ima
 ("Jigglypuff", "/View/Modules/Pokephone/Images/Pokemons/Jigglypuff.png"),
 ("Vulpix", "/View/Modules/Pokephone/Images/Pokemons/Vulpix.png"),
 ("Sandshrew", "/View/Modules/Pokephone/Images/Pokemons/Sandshrew.png"),
-("Spearow", "/View/Modules/Pokephone/Images/Pokemons/Spearow.png");
+("Spearow", "/View/Modules/Pokephone/Images/Pokemons/Spearow.png"),
+("Riolu", "/View/Modules/Pokephone/Images/Pokemons/Riolu.png");
