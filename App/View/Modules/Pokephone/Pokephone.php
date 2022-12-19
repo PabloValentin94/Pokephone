@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" type="text/css" href="/View/Modules/Pokephone/CSS/Styles.css">
 
-        <title> Pokephone </title>
+        <title> Poképhone </title>
 
     </head>
 
@@ -43,6 +43,16 @@
                 </div>
 
             <?php endforeach ?>
+
+            <?php if(count($model->rows) == 0): ?>
+
+                <div class="rows_null">
+
+                    <p> Para encon&shy;trar outros po&shy;kémons, <a href="https://www.pokemon.com/br/pokedex/"> clique aqui </a>. </p>
+
+                </div>
+
+            <?php endif ?>
 
         </div>
         

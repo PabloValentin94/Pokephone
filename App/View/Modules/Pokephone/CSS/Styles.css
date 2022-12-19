@@ -26,7 +26,7 @@ body {
     width: 20%;
     display: block;
     background-color: transparent;
-    border: 10px solid #800080;
+    border: 10px solid #FCD71E;
     border-radius: 10%;
     padding: 1%;
 
@@ -57,7 +57,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    border: 5px solid #800080;
+    border: 5px solid #FCD71E;
     color: #FFFFFF;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -113,20 +113,32 @@ body {
 
 }
 
-#null_rows {
+.rows_null {
 
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
+    color: #FFFFFF;
 
 }
 
-#null_rows p {
+.rows_null a {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: #FFFFFF;
+    color: #85C3D2;
+
+}
+
+.rows_null a:hover {
+
+    color: #EB3629;
+
+}
+
+.rows_null a:active {
+
+    color: #2F8E4C;
 
 }
