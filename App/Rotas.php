@@ -15,3 +15,5 @@ switch($url)
         echo "Error 404";
 
 }
+
+?>

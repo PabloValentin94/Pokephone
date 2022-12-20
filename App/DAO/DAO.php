@@ -23,3 +23,5 @@ abstract class DAO
     }
 
 }
+
+?>

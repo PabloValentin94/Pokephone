@@ -26,3 +26,5 @@ class PokephoneController extends Controller
     }
 
 }
+
+?>
