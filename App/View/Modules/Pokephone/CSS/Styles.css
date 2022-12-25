@@ -20,11 +20,14 @@ body {
 
 }
 
-.phone {
+#phone {
 
     height: 65%;
     width: 20%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     border: 10px solid #FCD71E;
     border-radius: 10%;
@@ -43,9 +46,12 @@ body {
 
 }
 
-#screen img {
+#image {
 
-    height: 50%;
+    height: 60%;
+    width: 80%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
 }
 
@@ -64,7 +70,7 @@ body {
 
 }
 
-.buttons {
+#buttons {
 
     height: 5%;
     width: 100%;
@@ -74,8 +80,23 @@ body {
     background-color: transparent;
 }
 
-.buttons button {
+#form {
 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+
+    height: 100;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     border: none;
     font-size: 30px;
@@ -83,37 +104,7 @@ body {
 
 }
 
-.form {
-
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#btn_anterior {
-
-    height: 100;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#btn_proximo {
-
-    height: 100;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.rows_null {
+#rows_null {
 
     height: 100%;
     width: 100%;
@@ -125,19 +116,19 @@ body {
 
 }
 
-.rows_null a {
+#rows_null a {
 
     color: #85C3D2;
 
 }
 
-.rows_null a:hover {
+#rows_null a:hover {
 
     color: #EB3629;
 
 }
 
-.rows_null a:active {
+#rows_null a:active {
 
     color: #2F8E4C;
 
