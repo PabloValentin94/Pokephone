@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/View/Modules/Pokephone/Images/Wallpaper.jpg");
+    background-image: url("../Images/Wallpaper.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -78,16 +78,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: transparent;
-}
-
-#form {
-
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
 .button {
